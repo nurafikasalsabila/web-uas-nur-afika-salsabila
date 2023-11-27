@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.wrapper {
+    height: 60px;
+    width: 60%;
+    background-color: #fa8072d8;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.2), -2px 0px 4px rgba(0, 0, 0, 0.2), 0px 2px 4px rgba(0, 0, 0, 0.2), 0px -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.navigation li a {
+    margin: 80px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.navigation li a:hover {
+    color: rgb(255, 248, 252);
+}
+
+
+.productlist {
+    display: flex;
+    height: 100;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.garis {
+    height: 10px;
+    width: 100%;
+}
+
+.garis>hr {
+    margin-left: 47%;
+    width: 70px;
+    border-top: 4px solid #000;
+    margin-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 60px;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+.img {
+    object-fit: cover;
+}
+
+.grid>article {
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 0;
+    text-align: center;
+    background: whitesmoke;
+    width: 200px;
+    transition: trasnfrom;
+
+}
+
+.grid>article>img {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+
+/* .conten{
+    cursor: progress;
+} */
+.grid>article:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width:1000px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:500px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* home */
+
+.bodyyy {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New';
+    color: #2F4F4F;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+
+}
+
+.colom {
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+
+.colom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin-left: 50px;
+    line-height: 2;
+    text-align: center;
+
+}
+
+.colom img {
+    width: 300px;
+    height: 480px;
+    display: block;
+    margin-left: auto;
+    /* Mengatur margin kiri menjadi otomatis */
+    margin-right: auto;
+}
+
+/* detail */
+hr {
+    color: rgb(226, 172, 55);
+}
+
+table {
+
+    margin-top: 100px;
+    margin-left: 50px;
+    text-align: left;
+    font-family: Gill Sans MT;
+    color: rgb(235, 147, 89);
+}
+
+tr {
+    margin-top: 10px;
+}
+
+.foto {
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+/* suggestion */
+td {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+td textarea {
+    margin-right: 30px;
+}
+
+.tablee {
+    font-family: Mongolian Baiti;
+    font-size: 20px;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-top: 5%;
+    background-color: #e28f8699;
+    margin-bottom: 150px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-button {
+    background-color: rgba(255, 255, 255, 0.89);
+    color: #754a4a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: auto;
+}
+.login-button:hover {
+    background-color: rgba(0, 0, 0, 0.767);
+}
+/* style.css */
+
+/* Menentukan ukuran ikon WhatsApp */
+.wa_btn i {
+    font-size: 4em; /* Sesuaikan ukuran sesuai keinginan Anda */
+}
+
+/* Menentukan posisi ikon WhatsApp */
+.wa_btn {
+    position: fixed;
+    bottom: 20px; /* Sesuaikan dengan jarak dari bawah layar */
+    right: 20px; /* Sesuaikan dengan jarak dari kanan layar */
+}
+
+/* Style lainnya jika diperlukan */
+footer {
+
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
